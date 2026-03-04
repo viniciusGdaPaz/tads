@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .titulo{
+            color: black;
+
+        }
+        .txt1{
+            border: 1px solid black;
+            background-color:#deceb6;
+            padding: 40px;
+            font-size: 20px;
+            margin-top: 30px;
+             text-indent: 40px;
+          
+
+        }
+        .txt2{
+                
+            border: 1px solid black;
+            background-color:#add3d37f;
+            padding: 40px;
+            font-size: 20px;
+            margin-top: 30px;
+            text-indent: 40px;
+        }
+        b.sublinhado{
+            background-color: #add3d3;
+            color: #23382e;
+        }
+        b.color{
+            color: #560cce;
+        }
+        .pagina{
+           
+            width: 860px;
+            margin: auto;
+            
+        }
+        
+    </style>
+</head>
+<body>
+
+    <div class="pagina">
+
+        <div class="titulo"><h1>Sistema operacional Linux</h1></div>
+        <div class="txt1">Linux é um termo popularmente empregado para se referir a sistemas 
+            operacionais que utilizam o Kernel Linux. O núcleo (ou kernel, em Inglês) foi desenvolvido 
+            pelo programador finlandês <b class="sublinhado">Linus Torvalds</b>, inspirado no sistema Minix. 
+            O seu código-fonte está disponível sob a licença GPL (versão 2) para que qualquer pessoa o possa utilizar, 
+            estudar, modificar e distribuir livremente de acordo com os termos da licença. </div>
+
+        <div class="txt2">Inicialmente desenvolvido e utilizado por grupos de entusiastas em
+             computadores pessoais, os sistemas operacionais com núcleo Linux passaram a ter 
+             a colaboração de grandes empresas como IBM, Sun Microsystems, Hewlett-Packard (HP),
+              <b class="color">Red Hat</b>, Novell, Oracle, Google, Mandriva, Microsoft e Canonical.</div>
+
+
+    </div>
+   
+    
+</body>
+</html>
