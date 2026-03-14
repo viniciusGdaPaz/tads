@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box model</title>
+    <style>
+
+        div{border: 1px solid black;}
+        .caixa1{
+            width: 100px;
+            height: 30px;
+            padding: 20px;
+            margin: 10px;
+        }
+        .caixa2{
+            width: 100px;
+            height: 30px;
+            padding: 0px;
+            margin: 0px;
+            border: 10px solid black;
+        }
+        .caixa3{
+            width: 50%;
+
+        }
+
+        .caixa4{
+             width: 100px;
+            height: 30px;
+            padding: 20px;
+            margin: 10px;
+            box-sizing: border-box;
+
+        }
+
+        /*Propriedade display
+        -block
+        inline
+        inline-blocl*/
+        p{
+            display: inline;
+            background-color: red;
+            display: inline;
+        }
+        p:hover{
+            /* display: none; */
+           display: none;
+        }
+        span{
+            background-color: blue;
+        }
+        span:hover{
+            background-color: purple;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="caixa1">caixa 1 </div>
+    <div class="caixa2">caida 2</div>
+    <div class="caixa3">caixa 3</div>
+    <div class="caixa4"></div>
+
+    <!-- largura = 100+(20*2) + 1 + 1 + (10*20) = 162px
+    altura: 30+ (20*2) +1 + 1 + (10*2) = 92px -->
+
+    <div>
+        <p>Lorem , dolore dignissimos dicta magni nihil!</p>
+        <p>Lorem ipsum dolor sit amaspernatur qui. Aspernatur.</p>
+
+        <span>lorem span 1</span>
+        <span>lorem span 2</span>
+    </div>
+    
+</body>
+</html>
